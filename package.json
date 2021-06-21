@@ -1,0 +1,26 @@
+{
+  "name": "sotbot-token-extrator",
+  "version": "0.1.0",
+  "description": "Extract the SoT RAT API cookie for use in SoTBot",
+  "main": "dist/sotbot-token-extrator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wneessen/sotbot-token-extrator.git"
+  },
+  "keywords": [],
+  "author": "Winfried Neessen <wn@neessen.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wneessen/sotbot-token-extrator/issues"
+  },
+  "homepage": "https://github.com/wneessen/sotbot-token-extrator#readme",
+  "dependencies": {
+    "puppeteer": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^3.0.2"
+  }
+}
