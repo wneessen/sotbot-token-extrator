@@ -77,7 +77,7 @@ To run the Docker image simply issue the following command:
 - Because of the security settings in docker, we need to run it with a specific seccomp-profile, otherwise Chrome will
   not be able to run. Therefore you need to download the profile file first:
   ```sh
-  $ curl -LO https://raw.githubusercontent.com/wneessen/sotbot-token-extractor/master/seccomp.json
+  $ curl -LO https://raw.githubusercontent.com/wneessen/sotbot-token-extrator/main/seccomp.json
   ```
 - Run the docker image
   ```sh
